@@ -1,0 +1,53 @@
+// roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+// rajdhani
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+// open sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+// dancing script
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+.container{
+    .section_contactus{
+        width: 1860px;
+        height: 652px;
+        padding: 200px 0;
+
+        .bg_contactus{
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-size: 100%; 
+            background-attachment: fixed
+        }
+        .content_contactus{
+            padding-left: 180px;
+        
+            .title_quickService{
+                color: #333333;
+                font-family: 'Dancing Script', cursive;
+                font-size: 100px;
+                font-weight: 500px;
+                margin: 0 0 10px;
+                line-height: 1.5;
+            }
+            .title_message{
+                color: #FF0000;
+                font-family: 'Dancing Script', cursive;
+                font-size: 30px;
+                font-weight: 500;
+                margin: -5px 0 10px;
+                letter-spacing: 0.7px;
+                text-shadow: 0px 1px 3px #b1b1b1;
+                line-height: 1.5;
+            }
+            .title_phone{
+                color:#333333;
+                font-family: 'Roboto', sans-serif;
+                font-size: 28px;
+                font-weight: normal;
+                line-height: 1.5;
+                margin: 0;
+            }
+        }
+    }
+}
