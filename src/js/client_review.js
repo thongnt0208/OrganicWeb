@@ -1,5 +1,5 @@
-var splide = new Splide( '.splide.splide-client',{
+var splideClient = new Splide( '.splide.splide-client',{
     type   : 'loop',
     autoplay: true,
 });
-splide.mount();
+splideClient.mount();

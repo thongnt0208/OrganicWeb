@@ -1,32 +1,18 @@
 //- code here
-doctype html
-head
-  meta(charset='UTF-8')
-  meta(http-equiv='X-UA-Compatible' content='IE=edge')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css')
-  link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide-core.min.css')
-  link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/themes/splide-skyblue.min.css')
-  link(rel='stylesheet' href='style.css')
-  title Organic Shopping Project
 .spotlight_container
   .spt_block
-    section.splide(aria-labelledby='carousel-heading')
+    section.splide.splide-spotlight(aria-labelledby='carousel-heading')
       .splide__track
         ul.splide__list
           li.splide__slide
-            .spt_img_1(style='background-image: url(../img/spotlight-carousel-1.jpg);
-                                background-position: center;
-                                background-size: auto;')
+            .spt_img_1(style="background-image: url('../img/spotlight-carousel-1.jpg');background-position: center;background-size: auto;")
               p.text
                 | We selling organic fruits,
                 br
                 |  vegetables, and so much more things
               button.btn5-hover.btn5 Contact us
           li.splide__slide
-            .spt_img_2(style='background-image: url(../img/spotlight-carousel-2.jpg);
-                                background-position: center;
-                                background-size: auto;')
+            .spt_img_2(style="background-image: url('../img/spotlight-carousel-2.jpg'); background-position: center;background-size: auto;")
               p.text
                 | We selling organic fruits,
                 br
@@ -35,7 +21,7 @@ head
     .spt_info
       .spt_info_block
         .info_img
-          img(src='../img/spotlight-content-1.png' alt='')
+          img(src="../img/spotlight-content-1.png" alt='')
         .info_text
           p
             span Beef and Cattle 
@@ -69,8 +55,5 @@ head
             br
             |                             Our commitment to using organic produce in every appetizer
             |                             and dessert
-div(style='height: 1000px;')
-script(src='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js')
-script(src='style.js')
-
+//- div(style='height: 1000px;')
 script(type="module" src="../js/spootlight.js") 

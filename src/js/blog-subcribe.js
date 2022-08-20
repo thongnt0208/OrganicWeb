@@ -1,5 +1,5 @@
 document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide',{
+    var splideBlog = new Splide( '.splide.splide-blog',{
         type   : 'loop',
         perPage: 3,
         perMove: 1,
@@ -10,5 +10,5 @@ document.addEventListener( 'DOMContentLoaded', function() {
         },
         autoplay: true,
     } );
-    splide.mount();
+    splideBlog.mount();
   } );
