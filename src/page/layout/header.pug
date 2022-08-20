@@ -1,0 +1,42 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Header
+  link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css')
+  link(rel='stylesheet' href='./../scss/component/header.scss')
+.header
+  .container
+    .nav
+      // logo
+      .logo
+        a.logo_link(href='#')
+          img.img_logo(src='./image/logo.png' alt='logo')
+      // btn
+      input.btn-toggle-menu(type='checkbox')
+      .toggle-menu-icon
+        span
+      // menu
+      .menu
+        .menu_content
+          ul.menu_list
+            li.menu_item
+              a.menu_link(href='#') Home
+            li.menu_item
+              a.menu_link(href='#') Services
+            li.menu_item
+              a.menu_link(href='#') Our Products
+            li.menu_item
+              a.menu_link(href='#') Testimonials
+            li.menu_item
+              a.menu_link(href='#') Events
+        .btn
+          .menu_phone
+            button.btn-phone
+              i.bi.bi-telephone-fill.menu_phone_icon
+              p.phone +71 1 2345678
+          .menu_login-signin
+            button.btn-login Login
+            button.btn-signin Signin
+        div(style='height: 100vh')
