@@ -10,7 +10,7 @@
 
 .container{
     .section_aboutus{
-        width: 1500px;
+        // width: 1500px;
         height: 509.25px;
         background-color: #ffffff;
         display: flex;
@@ -18,13 +18,16 @@
             
         .bg_aboutus{
             .bg_img{
-                width: 595px; 
-                height: 465px; 
+              
+                width: 100%;
+                height: auto;
+                display: block;
             }
         }
         .content_aboutus{
-            padding-right: 200px;
-            
+            // padding-right: 200px;
+            height: auto;
+            width: 50%;
             .title_aboutus{
                 h2{
                     margin-top: 40px;

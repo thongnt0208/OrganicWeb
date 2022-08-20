@@ -7,17 +7,16 @@
 // dancing script
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 .contact{
+    background-size: cover !important; 
+    padding: 10rem 0;
     .container{
         .section_contactus{
             // width: 1860px;
             // height: 652px;
-            padding: 200px 0;
+            // padding: 200px 0;
     
             .bg_contactus{
-                background-repeat: no-repeat; 
-                background-position: center; 
-                background-size: 100%; 
-                background-attachment: fixed
+
             }
             .content_contactus{
                 padding-left: 180px;
