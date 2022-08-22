@@ -1,59 +1,60 @@
+
+  .spotlight
+    .spotlight_container
+      .spt_block
+        section.splide_spotlight(aria-labelledby='carousel-heading')
+          .splide__track
+            ul.splide__list
+              li.splide__slide
+                .spt_img_1(style='background-image: url(../img/spotlight-carousel-1.jpg); background-position: center; background-size: auto;')
+                  .text
+                    p We selling organic fruits, vegetables, and so much more things
+                  .btn
+                    button.btn5-hover.btn5 Contact us
+              li.splide__slide
+                .spt_img_2(style='background-image: url(../img/spotlight-carousel-2.jpg); background-position: center; background-size: auto;')
+                  .text
+                    p We selling organic fruits, vegetables, and so much more things
+                  .btn
+                    button.btn5-hover.btn5 Contact us
+        .spt_info
+          .spt_info_block
+            .info_img
+              img(src='../img/spotlight-content-1.png' alt='')
+            .info_text
+              p
+                span Beef and Cattle 
+              p
+                | Beef produced without genetic engineering, use of ionizing
+                | radiation or sewage sludge
+          .spt_info_block
+            .info_img
+              img(src='../img/spotlight-content-2.png' alt='')
+            .info_text
+              p
+                span Dairy Products 
+              p
+                | Dairy products like milk, cheese and yogurt each contain
+                | nutrients your body needs
+          .spt_info_block
+            .info_img
+              img(src='../img/spotlight-content-3.png' alt='')
+            .info_text
+              p
+                span Orchard Fruits 
+              p
+                | Covers everything you need to know to successfully grow your
+                | own orchard fruits
+          .spt_info_block
+            .info_img
+              img(src='../img/spotlight-content-4.png' alt='')
+            .info_text
+              p
+                span Dining & Catering 
+              p
+                | Our commitment to using organic produce in every appetizer
+                | and dessert
+
 //- code here
-.spotlight_container
-  .spt_block
-    section.splide.splide-spotlight(aria-labelledby='carousel-heading')
-      .splide__track
-        ul.splide__list
-          li.splide__slide
-            .spt_img_1(style="background-image: url('../img/spotlight-carousel-1.jpg');background-position: center;background-size: auto;")
-              p.text
-                | We selling organic fruits,
-                br
-                |  vegetables, and so much more things
-              button.btn5-hover.btn5 Contact us
-          li.splide__slide
-            .spt_img_2(style="background-image: url('../img/spotlight-carousel-2.jpg'); background-position: center;background-size: auto;")
-              p.text
-                | We selling organic fruits,
-                br
-                |  vegetables, and so much more things
-              button.btn5-hover.btn5 Contact us
-    .spt_info
-      .spt_info_block
-        .info_img
-          img(src="../img/spotlight-content-1.png" alt='')
-        .info_text
-          p
-            span Beef and Cattle 
-            br
-            |                             Beef produced without genetic engineering, use of ionizing
-            |                             radiation or sewage sludge
-      .spt_info_block
-        .info_img
-          img(src='../img/spotlight-content-2.png' alt='')
-        .info_text
-          p
-            span Dairy Products 
-            br
-            |                             Dairy products like milk, cheese and yogurt each contain
-            |                             nutrients your body needs
-      .spt_info_block
-        .info_img
-          img(src='../img/spotlight-content-3.png' alt='')
-        .info_text
-          p
-            span Orchard Fruits 
-            br
-            |                             Covers everything you need to know to successfully grow your
-            |                             own orchard fruits
-      .spt_info_block
-        .info_img
-          img(src='../img/spotlight-content-4.png' alt='')
-        .info_text
-          p
-            span Dining &amp; Catering 
-            br
-            |                             Our commitment to using organic produce in every appetizer
-            |                             and dessert
-//- div(style='height: 1000px;')
+
 script(type="module" src="../js/spootlight.js") 
