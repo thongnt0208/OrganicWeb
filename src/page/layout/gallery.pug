@@ -1,56 +1,50 @@
-doctype html
-head
-  meta(charset='UTF-8')
-  meta(http-equiv='X-UA-Compatible' content='IE=edge')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  title Project
-  link(rel='stylesheet' href='./style.scss')
-.wrap
-  section#products.section-padding.shop-area
-    .container
-      .section-title
-        h2 Our Gallery
-        h5(style='color: green;') We Have Best Organic Products
-        //- .container
-      .nav-bg
-        .container
-          .nav
-            .nav-menu
-              ul.nav-menu__list
-                li.nav-menu__item
-                  a.nav-menu__link.btn-2(href='#' style='background-color: green; color: white;')
-                    | All
-                li.nav-menu__item
-                  a.nav-menu__link.btn-2(href='#')
-                    | Fruit
-                li.nav-menu__item
-                  a.nav-menu__link.btn-2(href='#')
-                    | Vegetables
-            .nav-menu
-              ul.nav-menu__list
-                li.nav-menu__item
-                  a.nav-menu__link.btn-2(href='#')
-                    | Wheat
-                li.nav-menu__item
-                  a.nav-menu__link.btn-2(href='#')
-                    | Drinks
-.flex-box
-  .st_3
-    div
-      img(src='../img/gallery-apple.png')
-    div
-      img(src='../img/gallery-apricot.png')
-    div
-      img(src='../img/gallery-avocado.png')
-    div
-      img(src='../img/gallery-pineapple.png')
-  .nd_3
-    div
-      img(src='../img/gallery-cherry.png')
-    div
-      img(src='../img/gallery-kale.png')
-    div
-      img(src='../img/gallery-cashew.png')
-    div
-      img(src='../img/gallery-cucumber.png')
-a.btn-1(href='#') View Gallery
+div.gallery_container
+  .wrap
+    section#products.section-padding.shop-area
+      .container
+        .section-title
+          h2 Our Gallery
+          h5(style='color: green;') We Have Best Organic Products
+          //- .container
+        .nav-bg
+          .container
+            .nav
+              .nav-menu
+                ul.nav-menu__list
+                  li.nav-menu__item
+                    a.nav-menu__link.btn-2(href='#' style='background-color: green; color: white;')
+                      | All
+                  li.nav-menu__item
+                    a.nav-menu__link.btn-2(href='#')
+                      | Fruit
+                  li.nav-menu__item
+                    a.nav-menu__link.btn-2(href='#')
+                      | Vegetables
+              .nav-menu
+                ul.nav-menu__list
+                  li.nav-menu__item
+                    a.nav-menu__link.btn-2(href='#')
+                      | Wheat
+                  li.nav-menu__item
+                    a.nav-menu__link.btn-2(href='#')
+                      | Drinks
+  .flex-box
+    .st_3
+      div
+        img(src='../img/gallery-apple.png')
+      div
+        img(src='../img/gallery-apricot.png')
+      div
+        img(src='../img/gallery-avocado.png')
+      div
+        img(src='../img/gallery-pineapple.png')
+    .nd_3
+      div
+        img(src='../img/gallery-cherry.png')
+      div
+        img(src='../img/gallery-kale.png')
+      div
+        img(src='../img/gallery-cashew.png')
+      div
+        img(src='../img/gallery-cucumber.png')
+  a.btn-1(href='#') View Gallery
