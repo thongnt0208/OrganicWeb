@@ -4,24 +4,32 @@ html(lang='en')
     meta(charset='UTF-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Pied Organic Products
-    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css")
-    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide-core.min.css")
-    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css")
-  body
-    include ./layout/about_us.pug
-    include ./layout/blog-subcribe.pug
-    include ./layout/client_review.pug
-    include ./layout/contact.pug
-    include ./layout/event.pug
-    include ./layout/footer.pug
-    include ./layout/gallery.pug
+    title PiedTeam
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css')
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide-core.min.css')
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/themes/splide-default.min.css')
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/themes/splide-sea-green.min.css')
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/themes/splide-skyblue.min.css')
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/combine/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css,npm/@splidejs/splide@4.0.7/dist/css/splide-core.min.css,npm/@splidejs/splide@4.0.7/dist/css/themes/splide-default.min.css,npm/@splidejs/splide@4.0.7/dist/css/themes/splide-sea-green.min.css,npm/@splidejs/splide@4.0.7/dist/css/themes/splide-skyblue.min.css')
+  
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  body  
     include ./layout/header.pug
+    //- include ./layout/spootlight.pug
+    include ./layout/about_us.pug
+    include ./layout/contact.pug
     include ./layout/our_product.pug
-    include ./layout/spootlight.pug
+    include ./layout/gallery.pug
+    include ./layout/client_review.pug
+    include ./layout/event.pug
+    include ./layout/blog-subcribe.pug
+    include ./layout/footer.pug
+
+
     
     //- h1 ahihi
     //- img(src="./../img/bg-login.jpg", alt="", srcset="")
     noscript  PiedTeam
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
+    script(src='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js')
     script(src='../bundle.js')

@@ -1,3 +1,96 @@
 //- code here
 
-script(type="module" src="../js/blog-subcribe.js") 
+// Blog
+// Title
+.blog-subcribe
+  h2.blog__title Blog
+  // Slide
+  .container
+    section.splide.splide-blog(aria-label='Splide Basic HTML Example')
+      .splide__track
+        ul.splide__list
+          li.splide__slide
+            // Card 1
+            a.card__link(href='https://vnexpress.net/an-qua-cherry-giup-ngu-ngon-3749465.html' target='_blank')
+              .card__block
+                .card__img
+                  img.card__image(src='./../img/blog-subcribe-Slide01.jpg' alt='')
+                .card__info
+                  h5.card__title
+                    | Eating cherries helps to sleep well
+                    h5
+                      span.card__content
+                        | Cherries are rich in fiber and antioxidants for smooth skin and a good night&apos;s sleep
+          li.splide__slide
+            // Card 2
+            a.card__link(href='https://vnexpress.net/6-loai-nuoc-ep-cho-nguoi-viem-loet-dai-trang-4487722.html' target='_blank')
+              .card__block
+                .card__img
+                  img.card__image(src='./../img/blog-subcribe-Slide02.jpg' alt='')
+                .card__info
+                  h5.card__title
+                    | 6 juices for people with ulcerative colitis
+                    h5
+                      span.card__content Juice from purple carrots, cranberries, celery&mldr; can help reduce inflammation
+          li.splide__slide
+            // Card 3
+            a.card__link(href='https://www.nguoiduatin.vn/nhung-tac-dung-tuyet-voi-cua-qua-cam-a444671.html' target='_blank')
+              .card__block
+                .card__img
+                  img.card__image(src='./../img/blog-subcribe-Slide03.jpg' alt='')
+                .card__info
+                  h5.card__title
+                    | The amazing effects of oranges
+                    h5
+                      span.card__content
+                        | Orange is a fruit rich in nutrients such as vitamin C, fiber, folate, antioxidants but very low
+          li.splide__slide
+            // Card 4
+            a.card__link(href='https://vnexpress.net/dung-sai-ve-tac-dung-cua-nuoc-ep-3326861.html' target='_blank')
+              .card__block
+                .card__img
+                  img.card__image(src='./../img/blog-subcribe-Slide04.jpg' alt='')
+                .card__info
+                  h5.card__title
+                    | Right, wrong about the effect of juice
+                    h5
+                      span.card__content
+                        | Fruit and vegetable juices can quickly replenish nutrients, but cannot replace a full meal
+          li.splide__slide
+            // Card 5
+            a.card__link(href='https://afamily.vn/sua-hat-xu-huong-uong-xanh-song-lanh-cua-nhung-ba-me-viet-thong-thai-20200416122228214.chn' target='_blank')
+              .card__block
+                .card__img
+                  img.card__image(src='./../img/blog-subcribe-Slide05.jpg' alt='')
+                .card__info
+                  h5.card__title
+                    | Nut milk: Green drinking trend
+                    h5
+                      span.card__content
+                        | Nut milks, juices and fresh smoothies have recently started spreading around the world
+          li.splide__slide
+            // Card 6
+            a.card__link(href='https://nld.com.vn/kinh-te/mo-cua-thi-truong-cho-trai-cay-viet-20220608213237381.htm' target='_blank')
+              .card__block
+                .card__img
+                  img.card__image(src='./../img/blog-subcribe-Slide06.jpg' alt='')
+                .card__info
+                  h5.card__title
+                    | Opening the market for Vietnamese fruit
+                    h5
+                      span.card__content
+                        | In order for Vietnamese fruits to reach markets, in addition to the active negotiation
+    // Subcribes
+    section.subcribe
+      .subcribe-row
+        .subcribe-row__left-side
+          h2.subcribe-row__title Subrcibes To Our Newsletter
+          h5.subcribe-row__content GET THE LATEST FARM NEWS ON YOUR EMAIL
+        .subcribe-row__right-side
+          .subcribe__contactBox
+            form.subcribe__form
+              input.subcribe__input(type='email' placeholder='Your email...')
+              a.subcribe__button(href='#')
+                span.subcribe__button__text Subcribes 
+                  i.bi.bi-bell
+script(type="module" src="../js/blog-subcribe.js")
