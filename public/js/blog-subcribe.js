@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){new Splide(".splide.splide-blog",{type:"loop",perPage:3,perMove:1,breakpoints:{460:{perPage:1}},autoplay:!0}).mount()});
