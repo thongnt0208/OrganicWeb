@@ -1,1 +1,1 @@
-var splide=new Splide(".splide.splide-client",{type:"loop",autoplay:!0});splide.mount();
+var splideClient=new Splide(".splide.splide-client",{type:"loop",autoplay:!0});splideClient.mount();
