@@ -1,0 +1,1 @@
+var splideSpotlight=new Splide(".splide_spotlight",{autoplay:!0,type:"loop"});splideSpotlight.mount();
