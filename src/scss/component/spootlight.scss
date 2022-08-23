@@ -4,7 +4,7 @@
   height: 100rem;
   .spotlight_container {
     margin: 0 auto;
-    max-width: 1320px;
+    max-width: 100%;
     height: 70rem;
     .spt_block {
       width: 100%;
@@ -19,7 +19,7 @@
                 display: flex;
                 align-items: center;
                 flex-wrap: wrap;
-                width: 150rem;
+                width: 200rem;
                 height: 80rem;
                 .text {
                   width: 55%;
@@ -61,7 +61,7 @@
                 display: flex;
                 align-items: center;
                 flex-wrap: wrap;
-                width: 150rem;
+                width: 200rem;
                 height: 80rem;
                 .text {
                   width: 55%;
@@ -104,17 +104,19 @@
         }
       }
       .spt_info {
-        width: 100%;
+        width: 80%;
         display: flex;
         justify-content: space-around;
         position: relative;
         top: -10rem;
         flex-wrap: wrap;
+        margin-left: 10%;
         .spt_info_block {
           background-color: #f0ffff;
           width: 30rem;
           height: 30rem;
           border-radius: 1rem;
+          padding-top: 2rem;
           margin-top: 10rem;
           .info_img {
             width: 100%;
@@ -141,48 +143,35 @@
   }
 }
 
-@media (max-width: 1440px){
-
-  .spt_info_block{
-      width: 55rem;
-      height: 30rem;
-      padding-top: 2rem;
+@media (max-width: 1510px) {
+  .spt_info_block {
+    width: 40rem;
   }
-  .spotlight{
-      height: 140rem;
-  }
-} 
-
-@media (max-width: 1250px){
-  .spotlight{
-      height: 220rem;
-  }
-  .spt_info_block{
-    width: 50rem;
+  .spotlight {
+    height: 140rem;
   }
 }
 
 @media (max-width: 760px) {
-  .spotlight{
-      height: 180rem;
+  .spotlight {
+    height: 220rem;
   }
-
 }
 
-@media (max-width: 600px){
-  .text{
-      font-size: 4rem;
-      margin-bottom: 10rem;
+@media (max-width: 600px) {
+  .text {
+    font-size: 4rem;
+    margin-bottom: 10rem;
   }
-  .btn5-hover{
-      width: 10rem;
-      font-size: 15px;
-      height: 45px;
+  .btn5-hover {
+    width: 10rem;
+    font-size: 15px;
+    height: 45px;
   }
 }
 
 @media (max-width: 360px) {
-  .btn{
-      bottom: 15rem;
+  .btn {
+    bottom: 15rem;
   }
 }
