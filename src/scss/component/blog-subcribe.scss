@@ -129,23 +129,26 @@
         };
     };
 };
-@media screen and(max-width: 118rem) {
-	.subcribe-row {
-        justify-content: center;
-	};
+@media (max-width: 1180px) {
+	.blog-subcribe .container__blog .container__subcribe .subcribe .subcribe-row{
+		justify-content: center;
+	}
 }
-@media screen and (max-width: 82rem) {
-	.subcribe-row {
+@media (max-width: 820px) {
+	// .subcribe-row {
+	// 	display: block;
+	// 	margin: 0 auto;
+	// 	.subcribe-row__left-side {
+	// 		max-width: 100%;
+	//     };
+	// 	.subcribe-row__right-side {
+	// 	    max-width: 100%;
+    //         height: auto;
+	// 	};
+	// };
+	.blog-subcribe .container__blog .container__subcribe .subcribe .subcribe-row {
 		display: block;
-		margin: 0 auto;
-		.subcribe-row__left-side {
-			max-width: 100%;
-	    };
-		.subcribe-row__right-side {
-		    max-width: 100%;
-            height: auto;
-		};
-	};
+	}
 };
 
 
