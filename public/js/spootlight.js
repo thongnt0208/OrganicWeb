@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){new Splide(".splide_spotlight",{autoplay:!0,type:"loop"}).mount()});
