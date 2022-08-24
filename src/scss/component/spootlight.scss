@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.spotlight {
+  width: 100%;
+  height: 100rem;
+  .spotlight_container {
+    margin: 0 auto;
+    max-width: 1320px;
+    height: 70rem;
+    .spt_block {
+      width: 100%;
+      height: 100%;
+      transition: 0.3s;
+      .splide_spotlight {
+        height: 100%;
+        .splide__track {
+          .splide__list {
+            .splide__slide {
+              .spt_img_1 {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                width: 150rem;
+                height: 80rem;
+                .text {
+                  width: 55%;
+                  height: 12rem;
+                  font-family: "Dancing Script", cursive;
+                  font-size: 5rem;
+                  font-weight: 400;
+                  color: #f0ffff;
+                  position: absolute;
+                  margin: -15rem 0 0 5rem;
+                  p {
+                    width: 100%;
+                    height: 100%;
+                    word-wrap: break-word;
+                  }
+                }
+                .btn {
+                  width: 20rem;
+                  height: 7rem;
+                  position: absolute;
+                  left: 5rem;
+                  bottom: 20rem;
+                  .btn5-hover {
+                    width: 16rem;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    cursor: pointer;
+                    height: 55px;
+                    text-align: center;
+                    border: 3px solid #f0ffff;
+                    background-color: transparent;
+                    background-size: 300% 100%;
+                    border-radius: 5px;
+                  }
+                }
+              }
+              .spt_img_2 {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                width: 150rem;
+                height: 80rem;
+                .text {
+                  width: 55%;
+                  height: 12rem;
+                  font-family: "Dancing Script", cursive;
+                  font-size: 5rem;
+                  font-weight: 400;
+                  color: #f0ffff;
+                  position: absolute;
+                  margin: -15rem 0 0 5rem;
+                  p {
+                    width: 100%;
+                    height: 100%;
+                    word-wrap: break-word;
+                  }
+                }
+                .btn {
+                  width: 20rem;
+                  height: 7rem;
+                  position: absolute;
+                  left: 5rem;
+                  bottom: 20rem;
+                  .btn5-hover {
+                    width: 16rem;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    cursor: pointer;
+                    height: 55px;
+                    text-align: center;
+                    border: 3px solid #f0ffff;
+                    background-color: transparent;
+                    background-size: 300% 100%;
+                    border-radius: 5px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .spt_info {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: -10rem;
+        flex-wrap: wrap;
+        .spt_info_block {
+          background-color: #f0ffff;
+          width: 30rem;
+          height: 30rem;
+          border-radius: 1rem;
+          margin-top: 10rem;
+          .info_img {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .info_text {
+            width: 100%;
+            height: 50%;
+            text-align: center;
+            padding: 20px;
+            color: #84b315;
+            span {
+              font-size: xx-large;
+              font-family: "Roboto", sans-serif;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px){
+
+  .spt_info_block{
+      width: 55rem;
+      height: 30rem;
+      padding-top: 2rem;
+  }
+  .spotlight{
+      height: 140rem;
+  }
+} 
+
+@media (max-width: 1250px){
+  .spotlight{
+      height: 220rem;
+  }
+  .spt_info_block{
+    width: 50rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .spotlight{
+      height: 180rem;
+  }
+
+}
+
+@media (max-width: 600px){
+  .text{
+      font-size: 4rem;
+      margin-bottom: 10rem;
+  }
+  .btn5-hover{
+      width: 10rem;
+      font-size: 15px;
+      height: 45px;
+  }
+}
+
+@media (max-width: 360px) {
+  .btn{
+      bottom: 15rem;
+  }
+}

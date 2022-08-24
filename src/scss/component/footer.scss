@@ -1,0 +1,145 @@
+.footer {
+    background-color: #040404;
+    z-index: 1;
+    padding: 50px 0;
+    border-top: 3px solid #84b315;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    .container__footer {
+        padding: 0 50px;
+        .footer_main {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .footer_main__content {
+                width: calc(33.33333333%);
+                .footer_main__content__title {
+                    color: #84b315;
+                    padding-bottom: 10px;
+                }
+                .footer_main__content__p {
+                    .information {
+                        padding: 3px 0px;
+                        color: #555;
+                    }
+                    .contact {
+                        display: flex;
+                        padding: 3px 0px;
+                        .contact_icon {
+                            color: #84b315;
+                        }
+                        .contact__content {
+                            padding-left: 5px;
+                            color: #555;
+                        }
+                    }
+                    .content_opening {
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 3px 0;
+                        .content_opening__left,
+                        .content_opening__right {
+                            color: #555;
+                        }
+                    }
+                }
+            }
+        }
+        .footer_src {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            .footer_src__designBy {
+                .footer_src__designBy__content {
+                    color: #555;
+                }
+            }
+            .footer_src__terms {
+                display: flex;
+                .footer_src__designBy__terms {
+                    text-decoration: none;
+                    color: #84b315;
+                    border-right: 1px solid rgb(255, 255, 255);
+                    .footer_src__designBy__link__left {
+                        text-decoration: none;
+                        color: #84b315;
+                        transition: 0.3s;
+                        padding-right: 10px;
+                        &:hover {
+                            color: beige;
+                        }
+                    }
+                }
+                .footer_src__designBy__privacy {
+                    text-decoration: none;
+                    color: #84b315;
+                    border-left: 1px solid rgb(255, 255, 255);
+                    .footer_src__designBy__link__right {
+                        text-decoration: none;
+                        color: #84b315;
+                        transition: 0.3s;
+                        padding-left: 10px;
+                        &:hover {
+                            color: beige;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+    .footer_main {
+        .footer_main__content {
+            padding: 0px 5px 0px 0px;
+        }
+    }
+    .footer_src {
+        display: block !important;
+        .footer_src__designBy {
+            display: block;
+            padding: 10px 0px;
+        }
+        .footer_src__terms {
+            width: 100%;
+            .footer_src__designBy__link__left {
+                padding-right: 10px;
+            }
+            .footer_src__designBy__link__right {
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 724px) {
+    .footer_main {
+        display: block !important;
+        .footer_main__content {
+            width: 100% !important;
+            .footer_main__content__p {
+                padding-bottom: 10px;
+            }
+        }
+    }
+    .footer_src {
+        display: block !important;
+        .footer_src__designBy {
+            padding: 10px 0px;
+        }
+        .footer_src__terms {
+            width: 100%;
+            padding: 0 auto;
+            .footer_src__designBy__link__left {
+                padding-right: 10px;
+                display: block;
+            }
+            .footer_src__designBy__link__right {
+                padding-left: 10px;
+                display: block;
+            }
+        }
+    }
+}
