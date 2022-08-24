@@ -1,14 +1,17 @@
 document.addEventListener( 'DOMContentLoaded', function() {
-    var splideBlog = new Splide( '.splide.splide-blog',{
+    var splide__blog = new Splide( '.splide.splide__blog',{
         type   : 'loop',
         perPage: 3,
         perMove: 1,
         breakpoints: {
-            460: {
+            1180: {
+                perPage: 2
+            },
+            820: {
                 perPage: 1
             },
         },
-        autoplay: true,
+        // autoplay: true,
     } );
-    splideBlog.mount();
+    splide__blog.mount();
   } );

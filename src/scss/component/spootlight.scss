@@ -1,177 +1,195 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
-
-.spotlight_container {
-  margin: 0 auto;
-  max-width: 100%;
-  height: 700px;
-  .spt_block {
-    border: 1px solid rgb(136, 166, 136);
-    width: 100%;
-    height: 100%;
-    transition: 0.3s;
-    .splide {
-      height: 100%;
-      .splide__track {
-        .splide__list {
-          .splide__slide {
-            .spt_img_1 {
-              border: 1px solid rgb(136, 166, 136);
-            //   background-image: url("image/side-view-vegetables-with-spices.jpg");
-            //   background-position: center;
-            //   background-size: auto;
-              display: flex;
-              align-items: center;
-              width: 100%;
-              height: 100%;
-              .text {
-                font-family: "Dancing Script", cursive;
-                font-size: 50px;
-                font-weight: 400;
-                color: #f0ffff;
-                position: absolute;
-                margin: -15rem 0 0 5rem;
-              }
-              .btn5-hover {
-                width: 160px;
-                font-size: 16px;
-                font-weight: 600;
-                color: #fff;
-                cursor: pointer;
-                margin: 5rem;
-                margin-top: 8rem;
-                height: 55px;
-                text-align: center;
-                border: none;
-                background-size: 300% 100%;
-                border-radius: 5px;
-                -o-transition: all 0.4s ease-in-out;
-                -webkit-transition: all 0.4s ease-in-out;
-                transition: all 0.4s ease-in-out;
-                &:hover {
-                  background-position: 100% 0;
-                  -o-transition: all 0.4s ease-in-out;
-                  -webkit-transition: all 0.4s ease-in-out;
-                  transition: all 0.4s ease-in-out;
-                }
-                &:focus {
-                  outline: none;
-                }
-                .btn5 {
-                  background-color: transparent;
-                  box-shadow: 0 4px 15px 0 #fdbc6a;
-                  border: 3px solid #f0ffff;
-                }
-              }
-            }
-            .spt_img_2 {
-              border: 1px solid rgb(136, 166, 136);
-            //   background-image: url("image/top-view-assortment-vegetables-paper-bag.jpg");
-            //   background-position: center;
-            //   background-size: auto;
-              display: flex;
-              align-items: center;
-              width: 100%;
-              height: 700px;
-              .text {
-                font-family: "Dancing Script", cursive;
-                font-size: 50px;
-                font-weight: 400;
-                color: #f0ffff;
-                position: absolute;
-                margin: -15rem 0 0 5rem;
-              }
-              .btn5-hover {
-                width: 160px;
-                font-size: 16px;
-                font-weight: 600;
-                color: #fff;
-                cursor: pointer;
-                margin: 5rem;
-                margin-top: 8rem;
-                height: 55px;
-                text-align: center;
-                border: none;
-                background-size: 300% 100%;
-                border-radius: 5px;
-                -o-transition: all 0.4s ease-in-out;
-                -webkit-transition: all 0.4s ease-in-out;
-                transition: all 0.4s ease-in-out;
-                &:hover {
-                  background-position: 100% 0;
-                  -o-transition: all 0.4s ease-in-out;
-                  -webkit-transition: all 0.4s ease-in-out;
-                  transition: all 0.4s ease-in-out;
-                }
-                &:focus {
-                  outline: none;
-                }
-                .btn5 {
-                  background-color: transparent;
-                  box-shadow: 0 4px 15px 0 #fdbc6a;
-                  border: 3px solid #f0ffff;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    .spt_info {
+.spotlight {
+  width: 100%;
+  height: 100rem;
+  .spotlight_container {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 70rem;
+    .spt_block {
       width: 100%;
-      display: flex;
-      justify-content: space-around;
-      position: absolute;
-      top: 500px;
-      flex-wrap: wrap;
-      .spt_info_block {
-        background-color: #f0ffff;
-        width: 35rem;
-        height: 40rem;
-        border-radius: 10px;
-        margin-top: 100px;
-        .info_img {
-          width: 100%;
-          height: 50%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .info_text {
-          width: 100%;
-          height: 50%;
-          text-align: center;
-          padding: 20px;
-          color: #84b315;
-          span {
-            font-size: xx-large;
-            font-family: "Roboto", sans-serif;
-            font-weight: 400;
+      height: 100%;
+      transition: 0.3s;
+      .splide_spotlight {
+        height: 100%;
+        .splide__track {
+          .splide__list {
+            .splide__slide {
+              .spt_img_1 {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                width: 200rem;
+                height: 80rem;
+                .text {
+                  width: 55%;
+                  height: 12rem;
+                  font-family: "Dancing Script", cursive;
+                  font-size: 5rem;
+                  font-weight: 400;
+                  color: #f0ffff;
+                  position: absolute;
+                  margin: -15rem 0 0 5rem;
+                  p {
+                    width: 100%;
+                    height: 100%;
+                    word-wrap: break-word;
+                  }
+                }
+                .btn {
+                  width: 20rem;
+                  height: 7rem;
+                  position: absolute;
+                  left: 5rem;
+                  bottom: 20rem;
+                  .btn5-hover {
+                    width: 16rem;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    cursor: pointer;
+                    height: 55px;
+                    text-align: center;
+                    border: 3px solid #f0ffff;
+                    background-color: transparent;
+                    background-size: 300% 100%;
+                    border-radius: 5px;
+                  }
+                }
+              }
+              .spt_img_2 {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                width: 200rem;
+                height: 80rem;
+                .text {
+                  width: 55%;
+                  height: 12rem;
+                  font-family: "Dancing Script", cursive;
+                  font-size: 5rem;
+                  font-weight: 400;
+                  color: #f0ffff;
+                  position: absolute;
+                  margin: -15rem 0 0 5rem;
+                  p {
+                    width: 100%;
+                    height: 100%;
+                    word-wrap: break-word;
+                  }
+                }
+                .btn {
+                  width: 20rem;
+                  height: 7rem;
+                  position: absolute;
+                  left: 5rem;
+                  bottom: 20rem;
+                  .btn5-hover {
+                    width: 16rem;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    cursor: pointer;
+                    height: 55px;
+                    text-align: center;
+                    border: 3px solid #f0ffff;
+                    background-color: transparent;
+                    background-size: 300% 100%;
+                    border-radius: 5px;
+                  }
+                }
+              }
+            }
           }
         }
       }
+      .spt_info_container{
+        width: 1320px;
+        margin: 0 auto;
+        .spt_info {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          position: relative;
+          top: -10rem;
+          flex-wrap: wrap;
+          margin-right: 10%;
+          .spt_info_block {
+            background-color: #ffffff;
+            border: 2px solid #f9f9f9;
+            width: 30rem;
+            height: 30rem;
+            border-radius: 1rem;
+            padding-top: 2rem;
+            margin-top: 10rem;
+            .info_img {
+              width: 100%;
+              height: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .info_text {
+              width: 100%;
+              height: 50%;
+              text-align: center;
+              padding: 20px;
+              color: #84b315;
+              span {
+                font-size: xx-large;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+      }
+      
     }
   }
 }
 
-@media (max-width: 1440px){
-    .spt_info_block{
-        width: 55rem;
-        height: 30rem;
-        padding-top: 2rem;
-    }
+@media (max-width: 1510px) {
+  .spt_info_block {
+    width: 50rem !important; 
+  }
+  .spotlight {
+    height: 140rem;
+  }
+}
+
+@media (max-width: 1322px) {
+  .spt_info_container{
+    width: 100% !important;
+  }
+  .spt_info_block {
+    width: 60rem !important; 
+  }
+}
+
+@media (max-width: 1200px){
+  .spotlight {
+    height: 231rem;
+  }
+  .spt_info {
+    top: 10px !important;
+  }
 } 
-@media (max-width: 720px) {
-    .btn5-hover{
-        margin-top: 15rem;
-    }
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 4rem;
+    margin-bottom: 10rem;
+  }
+  .btn5-hover {
+    width: 10rem;
+    font-size: 15px;
+    height: 45px;
+  }
 }
-@media (max-width: 520px) {
-    .btn5-hover{
-        margin-top: 20rem;
-    }
-}
+
 @media (max-width: 360px) {
-    .btn5-hover{
-        margin-top: 35rem;
-    }
+  .btn {
+    bottom: 15rem;
+  }
 }

@@ -2,8 +2,7 @@ var splide = new Splide( '.splide', {
     type   : 'loop',
     perPage: 2,
     perMove: 2,
-    breakpoints: {
-      1163: {
+    breakpoints: {{
         perPage: 1,
       },
     }
