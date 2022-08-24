@@ -115,7 +115,8 @@
           flex-wrap: wrap;
           margin-right: 10%;
           .spt_info_block {
-            background-color: #f0ffff;
+            background-color: #ffffff;
+            border: 2px solid #f9f9f9;
             width: 30rem;
             height: 30rem;
             border-radius: 1rem;
@@ -168,7 +169,10 @@
 
 @media (max-width: 1200px){
   .spotlight {
-    height: 220rem;
+    height: 231rem;
+  }
+  .spt_info {
+    top: 10px !important;
   }
 } 
 
