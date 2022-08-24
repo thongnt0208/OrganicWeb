@@ -8,81 +8,86 @@
     margin-top: 25px !important;
     margin: 0 auto;
     .container__footer {
-        padding: 0 50px;
-        .footer_main {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            .footer_main__content {
-                width: calc(33.33333333%);
-                .footer_main__content__title {
-                    color: #84b315;
-                    padding-bottom: 10px;
+        max-width: 1320px;
+        display: block;
+        margin: 0 auto;
+        .content__footer {
+            padding: 0 25px;
+            .footer_main {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                .footer_main__content {
+                    width: calc(33.33333333%);
+                    .footer_main__content__title {
+                        color: #84b315;
+                        padding-bottom: 10px;
+                    }
+                    .footer_main__content__p {
+                        .information {
+                            padding: 3px 0px;
+                            color: #555;
+                        }
+                        .contact {
+                            display: flex;
+                            padding: 3px 0px;
+                            .contact_icon {
+                                color: #84b315;
+                            }
+                            .contact__content {
+                                padding-left: 5px;
+                                color: #555;
+                            }
+                        }
+                        .content_opening {
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 3px 0;
+                            .content_opening__left,
+                            .content_opening__right {
+                                color: #555;
+                            }
+                        }
+                    }
                 }
-                .footer_main__content__p {
-                    .information {
-                        padding: 3px 0px;
+            }
+            .footer_src {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 0;
+                .footer_src__designBy {
+                    .footer_src__designBy__content {
                         color: #555;
                     }
-                    .contact {
-                        display: flex;
-                        padding: 3px 0px;
-                        .contact_icon {
+                }
+                .footer_src__terms {
+                    display: flex;
+                    .footer_src__designBy__terms {
+                        text-decoration: none;
+                        color: #84b315;
+                        border-right: 1px solid rgb(255, 255, 255);
+                        .footer_src__designBy__link__left {
+                            text-decoration: none;
                             color: #84b315;
-                        }
-                        .contact__content {
-                            padding-left: 5px;
-                            color: #555;
-                        }
-                    }
-                    .content_opening {
-                        display: flex;
-                        justify-content: space-between;
-                        padding: 3px 0;
-                        .content_opening__left,
-                        .content_opening__right {
-                            color: #555;
+                            transition: 0.3s;
+                            padding-right: 10px;
+                            &:hover {
+                                color: beige;
+                            }
                         }
                     }
-                }
-            }
-        }
-        .footer_src {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px 0;
-            .footer_src__designBy {
-                .footer_src__designBy__content {
-                    color: #555;
-                }
-            }
-            .footer_src__terms {
-                display: flex;
-                .footer_src__designBy__terms {
-                    text-decoration: none;
-                    color: #84b315;
-                    border-right: 1px solid rgb(255, 255, 255);
-                    .footer_src__designBy__link__left {
+                    .footer_src__designBy__privacy {
                         text-decoration: none;
                         color: #84b315;
-                        transition: 0.3s;
-                        padding-right: 10px;
-                        &:hover {
-                            color: beige;
-                        }
-                    }
-                }
-                .footer_src__designBy__privacy {
-                    text-decoration: none;
-                    color: #84b315;
-                    border-left: 1px solid rgb(255, 255, 255);
-                    .footer_src__designBy__link__right {
-                        text-decoration: none;
-                        color: #84b315;
-                        transition: 0.3s;
-                        padding-left: 10px;
-                        &:hover {
-                            color: beige;
+                        border-left: 1px solid rgb(255, 255, 255);
+                        .footer_src__designBy__link__right {
+                            text-decoration: none;
+                            color: #84b315;
+                            transition: 0.3s;
+                            padding-left: 10px;
+                            &:hover {
+                                color: beige;
+                            }
                         }
                     }
                 }
@@ -115,7 +120,7 @@
     }
 }
 
-@media (max-width: 724px) {
+@media (max-width: 770px) {
     .footer_main {
         display: block !important;
         .footer_main__content {
