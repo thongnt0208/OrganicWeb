@@ -76,7 +76,9 @@
                     }
                     .btn-2 {
                       display: inline-block;
-                      border: 1px solid black;
+                      border: 1px solid rgb(212, 208, 208);
+                      border-radius: 5px;
+                      box-shadow: 3px 3px 8px 1px rgb(217, 214, 214);
                       color: none;
                       text-decoration: none;
                       font-size: 15px;
@@ -136,8 +138,8 @@
   .btn-1 {
     display: inline-block;
     text-align: center;
-    border: 2px solid green;
-    color: green;
+    border: 2px solid #84b315;
+    color: #84b315;
     background-color: white;
     transition: 0.5s;
     padding: 10px 40px;
