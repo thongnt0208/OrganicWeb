@@ -129,12 +129,12 @@
         };
     };
 };
-@media screen and(max-width: 118rem) {
+@media (max-width: 118rem) {
 	.subcribe-row {
         justify-content: center;
 	};
 }
-@media screen and (max-width: 82rem) {
+@media (max-width: 82rem) {
 	.subcribe-row {
 		display: block;
 		margin: 0 auto;
