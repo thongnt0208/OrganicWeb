@@ -193,7 +193,7 @@
             opacity: 0;
             cursor: pointer;
             &:checked~.menu {
-                height: 250%;
+                height: 249%;
                 opacity: 1;
             }
             &:checked~.toggle-menu-icon {
@@ -257,6 +257,7 @@
             left: 50%;
             transform: translate(-50%, 0);
             opacity: 0;
+            box-shadow: 0px 0px 20px 0px #5a5a5a57;
             .menu_content {
                 padding: 0px 1px;
                 .menu_list {
