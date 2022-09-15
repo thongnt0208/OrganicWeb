@@ -1,5 +1,46 @@
-# ProjectStart
-## Xin chào mọi người
+# README
+
+# Orgnic Projet
+
+## Hello there
+
+## This is a team project using HTML, CSS and JavaScript
+
+### Project Introduction:
+
+We want to build a landing page about ‘something green’ to show our skills in UI design, Layout, HTML-CSS, and JavaScript. 
+
+### Timeline:
+
+Begin at: July 31, 2022 \
+Finish at: August 25, 2022 
+
+### Members:
+
+1. [Nguyen Trung Thong](https://github.com/thongnt0208) (Team Leader)
+2. [Minh Quan](https://github.com/lmaolmmo) (DW) 
+3. [Hoang Anh](https://github.com/danghoanganh36) 
+4. [Hoang Tien](https://github.com/WangChen0105) 
+5. [The Hieu](https://github.com/hieuvuanguday) 
+6. [Thanh Dat](https://github.com/DatRua411) 
+
+### Task Management
+|      Part     | Member Name |
+|:-------------:|:-----------:|
+| about_us      | Quân        |
+| blog-subcribe | Hiếu        |
+| client_review | Thông       |
+| contact       | Quân        |
+| event         | Thông       |
+| footer        | Đạt         |
+| gallery       | Tiến        |
+| header        | Đạt         |
+| our_product   | Tiến        |
+| spootlight    | Hoàng Anh   |
+
+###
+
+### 
 ## Tôi là Điệp (PIED) đại diện đến từ PIEDTeam | HUMANofPIED | PiedToiDay
 -
 ### Đây là folder chuyên dụng để dựng các dự án được làm bằng Nodejs
