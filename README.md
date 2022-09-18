@@ -1,10 +1,10 @@
-# <span style="color:green">Organic Project</span>
+# Organic Project
 
-## <span style="color:green">Hello there </span> :blush: 👋
+## Hello there  :blush: 👋
 
-## <span style="color:green">This is a team project using HTML, CSS and JavaScript</span>
+## This is a team project using HTML, CSS and JavaScript
 
-### <span style="color:green">Project Introduction:</span>
+### Project Introduction:
 
 A landing page where everyone can view information about products and farmers.
 
