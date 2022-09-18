@@ -3,6 +3,7 @@
 ## Hello there  :blush: 👋
 
 ## This is a team project using HTML, CSS and JavaScript
+🎉❗View our result [here](https://thongnt0208.github.io/OrganicWeb/public/page/index.html)⬅️
 
 ### Project Introduction:
 
