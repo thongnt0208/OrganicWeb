@@ -1,14 +1,12 @@
 # Organic Project
 
-## Hello there  :blush: 👋
-
 ## This is a team project using HTML, CSS and JavaScript
 <p>
-  <a href="#" target="__blank" rel="noreferrer"><img src="https://media0.giphy.com/media/YI3Q0ialYipRhBJG5N/giphy.gif?cid=ecf05e47efh4waq6hwro0sm8h0g4i2g5rqwkqy30avyxrt28&rid=giphy.gif&ct=s" alt="attention" width="40" height="30"/> 
-  View our result <a href ="https://thongnt0208.github.io/OrganicWeb/public/page/index.html"> here</a>⬅️
+  <img src="https://media0.giphy.com/media/YI3Q0ialYipRhBJG5N/giphy.gif?cid=ecf05e47efh4waq6hwro0sm8h0g4i2g5rqwkqy30avyxrt28&rid=giphy.gif&ct=s" alt="attention" width="40" height="30"/>
+  View our result <a href="https://thongnt0208.github.io/OrganicWeb/public/page/index.html"> here</a><img src="https://media2.giphy.com/media/u0CSVqmdQDgyhVzINx/giphy.gif?cid=ecf05e47f02yd3xr4ei92gnhm5xe8d5p4gxeykmf46envs34&rid=giphy.gif&ct=s" alt="attention" width="40" height="30"/>
 </p>
 
-
+## 
 ### Project Introduction:
 
 A landing page where everyone can view information about products and farmers.
