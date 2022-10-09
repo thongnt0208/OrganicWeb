@@ -3,13 +3,17 @@
 ## Hello there  :blush: 👋
 
 ## This is a team project using HTML, CSS and JavaScript
-🎉❗View our result [here](https://thongnt0208.github.io/OrganicWeb/public/page/index.html)⬅️
+<p>
+  <a href="#" target="__blank" rel="noreferrer"><img src="https://media0.giphy.com/media/YI3Q0ialYipRhBJG5N/giphy.gif?cid=ecf05e47efh4waq6hwro0sm8h0g4i2g5rqwkqy30avyxrt28&rid=giphy.gif&ct=s" alt="attention" width="40" height="30"/> 
+  View our result <a href ="https://thongnt0208.github.io/OrganicWeb/public/page/index.html"> here</a>⬅️
+</p>
+
 
 ### Project Introduction:
 
 A landing page where everyone can view information about products and farmers.
 
-**Skills**: UI/Layout design, HTML, CSS, and JavaScript. 
+**Skills**: <a href="#" target="__blank" rel="noreferrer"> <img src="https://img.shields.io/badge/-UI%2FLayout%20design-blueviolet" alt="ui" width="100" height="30" style = "border-radius: 40px"/> </a>, <a href="https://www.w3.org/html/" target="__blank" rel="noreferrer"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5" width="100" height="30" style = "border-radius: 40px"/> </a>, <a href="https://www.w3schools.com/css/" target="__blank" rel="noreferrer"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3" width="80" height="30" style = "border-radius: 40px"/> </a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="__blank" rel="noreferrer"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript" width="120" height="30" style = "border-radius: 40px"/> </a>. 
 
 ### Timeline:
 
