@@ -63,7 +63,8 @@ The technologies we have integrated PiedTeam into this folder is developed based
 
 &#8194;
 
-### <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Gulp.js_Logo.svg/1200px-Gulp.js_Logo.svg.png" width="30">What does we used __I.GULP for:
+### What does we used 
+### I. <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Gulp.js_Logo.svg/1200px-Gulp.js_Logo.svg.png" width="30"> for:
 #### I.1 Image optimization
 #### I.2 Replace and convert :
 ##### - From CSS to SCSS and HMTL to PUG
@@ -71,7 +72,7 @@ The technologies we have integrated PiedTeam into this folder is developed based
 ###### *why PUG : PUG helps us to better paginate, easily divide components and inherit elements of other pages in the same project
 #### I.3 automates when coding, supports good teamwork
 
-### <img src="https://cdn.freebiesupply.com/logos/large/2x/webpack-icon-logo-png-transparent.png" width="40">__II.Webpack:
+### II. <img src="https://cdn.freebiesupply.com/logos/large/2x/webpack-icon-logo-png-transparent.png" width="40"> Webpack:
 II.1 build dev mode and build mode\
 II.2 combined with <img src="https://cdn.freebiesupply.com/logos/large/2x/babel-10-logo-png-transparent.png" alt="babel logo" width ="40"> helps to pack, optimize and convert multiple versions of js files to run smoothly in low browsers, pack js files into a single bundle
 
